@@ -1,5 +1,5 @@
 resource "aws_security_group" "sg_manila_ops" {
-    vpc_id = aws_vpc.vpc_jun.id
+    vpc_id = aws_vpc.vpcjun803.id
 
 ingress {
     from_port = 22
